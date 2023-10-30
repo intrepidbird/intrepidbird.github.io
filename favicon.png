@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>AT</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="24.9218375%" cy="186.320771%" fx="24.9218375%" fy="186.320771%" r="105.86203%" gradientTransform="translate(0.249218,1.863208),scale(1.000000,0.904762),translate(-0.249218,-1.863208)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#25E2E2" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Pages-(desktop)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EDITED-Homepage-Subjects---Logged-Out" transform="translate(-1192.000000, -463.000000)">
+            <g id="subject-bar" transform="translate(0.000000, 390.000000)">
+                <g id="Advanced-Topics" transform="translate(1149.000000, 61.000000)">
+                    <g id="AT" transform="translate(43.000000, 12.000000)">
+                        <circle id="Oval-13" fill-opacity="0.680000007" fill="#13C2C2" fill-rule="nonzero" cx="37" cy="37" r="37"></circle>
+                        <circle id="Oval-13" stroke="#019393" fill="#019393" fill-rule="nonzero" cx="37" cy="37" r="36.5"></circle>
+                        <polygon id="Path-31" fill="url(#radialGradient-1)" fill-rule="nonzero" points="48.8085106 48.8085106 18.893617 36.1391928 44.9678107 15.7446809"></polygon>
+                        <path d="M19.4554859,8.72278895 L24.1257412,15.3873605 L4.72340426,39.095417 L26.2758639,64.5531915 L59.904467,62.5482209 L70.8510638,30.3114228 L52.5180381,3.18950561 C52.4898493,3.14780295 52.4324931,3.13638549 52.3899288,3.16400399 C52.3555055,3.18634038 52.3403749,3.22833494 52.3528576,3.26689459 L61.415408,31.2616223" id="Path-27" stroke-opacity="0.672214674" stroke="#FFFFFF" opacity="0.640908062"></path>
+                        <polyline id="Path-28" stroke-opacity="0.702813632" stroke="#FFFFFF" points="50.5851399 1.57446809 18.4930532 8.36756199 3.14893617 38.0263896 26.867038 54.9112643 22.6707832 14.5865457 60.1439022 30.4756981 58.1142355 61.4042553 26.867038 54.9112643 60.1439022 30.4756981 69.2765957 29.5900681"></polyline>
+                        <path d="M23.6170213,15.7446809 L50.3829787,3.14893617" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                        <path d="M26.7659574,55.106383 L25.1914894,64.5531915" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="18.6808511" cy="9.23404255" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="51.1702128" cy="2.36170213" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="60.6170213" cy="30.7021277" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="70.0638298" cy="29.7021277" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="59.0425532" cy="62.1914894" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="25.9787234" cy="63.7659574" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="27.1276596" cy="54.893617" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="23.4042553" cy="14.9574468" r="2.36170213"></circle>
+                        <circle id="Oval-12" fill="#FFFFFF" fill-rule="nonzero" cx="3.93617021" cy="38.5744681" r="2.36170213"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
