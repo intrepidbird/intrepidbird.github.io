@@ -8,6 +8,18 @@
     <link rel="icon" href="favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card-img-container {
+            height: 200px; /* Adjust the height as needed */
+            overflow: hidden;
+        }
+
+        .card-img-container img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -36,7 +48,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="project-1.png" class="card-img-top" alt="Project 1">
+                        <div class="card-img-container">
+                            <img src="project-1.png" alt="Project 1">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Gauss Math Bot</h5>
                             <p class="card-text">A Mathematical Bot powered by AI with Mathematical Functions.</p>
@@ -46,8 +60,10 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="project-2.png" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
+                        <div class="card-img-container">
+                            <img src="project-2.png" alt="Project 2">
+                        </div>
+                        <div class "card-body">
                             <h5 class="card-title">Graphing Calculator</h5>
                             <p class="card-text">A highly advanced Graphing Calculator that supports many functions.</p>
                             <a href="graphing-calculator" class="btn btn-primary">Learn More</a>
@@ -56,10 +72,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="project-3.png" class="card-img-top" alt="Project 3">
+                        <div class="card-img-container">
+                            <img src="project-3.png" alt="Project 3">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Mersenne Primes Calculator</h5>
-                            <p class="card-text">Calculates Mersenne Primes up to a given limit</p>
+                            <p class="card-text">Calculates Mersenne Primes up to a given limit.</p>
                             <a href="mersenne-primes" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
@@ -75,7 +93,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="maa-amc.png" class="card-img-top" alt="Achievement 1">
+                        <div class="card-img-container">
+                            <img src="maa-amc.png" alt="Achievement 1">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">MAA AMCs</h5>
                             <p class="card-text">I compete in MAA's American Mathematics Competitions 8, 10, and 12. I want to qualify for AIME.</p>
@@ -84,7 +104,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="mathcounts.png" class="card-img-top" alt="Achievement 2">
+                        <div class="card-img-container">
+                            <img src="mathcounts.png" alt="Achievement 2">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Mathcounts</h5>
                             <p class="card-text">I always represent my school in Mathcounts, and am a top scorer in AoPS's Mathcounts Trainer.</p>
@@ -93,7 +115,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="gauss.jpg" class="card-img-top" alt="Achievement 3">
+                        <div class="card-img-container">
+                            <img src="gauss.jpg" alt="Achievement 3">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Gauss Math Tournament</h5>
                             <p class="card-text">I am a consistent top scorer in Gauss Mathematics Tournament, where I've placed 3rd before.</p>
@@ -114,3 +138,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
