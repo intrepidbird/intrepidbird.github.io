@@ -1,4 +1,4 @@
-# intrepidbird.github.io
+# [intrepidbird.github.io](https://intrepidbird.github.io)
 
 Alex Sheng (IntrepidBird)'s Personal Website
 
