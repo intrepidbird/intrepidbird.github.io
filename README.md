@@ -4,7 +4,7 @@ Alex Sheng (IntrepidBird)'s Personal Website
 
 Subpages:
 
-| [Blog](https://intrepidbird.github.io/blog/) | [Projects](https://intrepidbird.github.io/projects/)
+| [Blog](https://intrepidbird.github.io/blog/) | [Projects](https://intrepidbird.github.io/projects/) |
 
 Many subpages on `/projects`
 
