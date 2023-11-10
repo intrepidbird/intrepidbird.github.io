@@ -2,11 +2,9 @@
 
 Alex Sheng (IntrepidBird)'s Personal Website
 
-Subpages:
+Blog: [1ntrepidBlog](https://artofproblemsolving.com/community/c3616023)
 
-| [Blog](https://intrepidbird.github.io/blog/) | [Projects](https://intrepidbird.github.io/projects/) |
-
-Many subpages on `/projects`
+------------------------------------------------------------------------------
 
 Credits: Images from AoPS, MAA, Mathcounts, Gauss, and Poh Shen Loh.
 
