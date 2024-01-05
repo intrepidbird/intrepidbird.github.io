@@ -2,7 +2,7 @@
 
 Alex Sheng (IntrepidBird)'s Personal Website
 
-Blog: [1ntrepidBlog](https://artofproblemsolving.com/community/c3616023)
+Blog: [AoPS Blog](https://artofproblemsolving.com/community/c3616023)
 
 ------------------------------------------------------------------------------
 
