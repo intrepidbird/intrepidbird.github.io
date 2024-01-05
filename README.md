@@ -6,7 +6,7 @@ Blog: [1ntrepidBlog](https://artofproblemsolving.com/community/c3616023)
 
 ------------------------------------------------------------------------------
 
-Credits: Images from AoPS, MAA, Mathcounts, Gauss, and Poh Shen Loh.
+Credits: Images from AoPS and Po Shen Loh
 
 Licensed under the [MIT License](https://opensource.org/license/mit/)
 
