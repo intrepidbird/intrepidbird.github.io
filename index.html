@@ -6,8 +6,8 @@
     <title>IntrepidBird | Home</title>
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png">
-    <!-- W3.css -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         .card-img-container {
             height: 250px; /* Adjust this */
@@ -23,102 +23,106 @@
 </head>
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar w3-light-grey w3-card">
-        <a class="w3-bar-item w3-button" href="#">IntrepidBird</a>
+       <!-- Navbar (sit on top) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">IntrepidBird</a>
         <!-- Toggle button for small screens -->
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <div class="w3-bar-item w3-right w3-hide-small">
-            <a href="#main-content" class="w3-bar-item w3-button">About Me</a>
-            <a href="projects" class="w3-bar-item w3-button">Projects</a>
-            <a href="https://artofproblemsolving.com/community/c3616023" target="_blank" class="w3-bar-item w3-button">Blog</a>
-            <a href="https://artofproblemsolving.com/community/user/632053" target="_blank" class="w3-bar-item w3-button">AoPS</a>
-            <a href="https://github.com/intrepidbird" target="_blank" class="w3-bar-item w3-button">GitHub</a>
-            <a href="https://twitter.com/intrepidbird97" target="_blank" class="w3-bar-item w3-button">Twitter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#main-content">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://artofproblemsolving.com/community/c3616023" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://artofproblemsolving.com/community/user/632053" target="_blank">AoPS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/intrepidbird" target="_blank">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/intrepidbird97" target="_blank">Twitter</a>
+                </li>
+            </ul>
         </div>
-    </div>
-</div>
+    </nav>
 
-<!-- Main Content -->
-<section id="main-content" class="container mt-5">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="images/intrepidbird-website.jpg" alt="IntrepidBird" class="img-fluid">
+    <!-- Main Content -->
+    <section id="main-content" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/intrepidbird-website.jpg" alt="IntrepidBird" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>Hi, I'm Alex Sheng</h2>
+                <p>Email: alexanderxsheng@gmail.com</p>
+                <p>I am currently a maths student with a passion for math and coding I am interested in sparking a interest for maths and cybersecurity in other people wherever I go. I am a web developer who makes applications and websites using Python, HTML, Javascript, and other languages to inspire others in the worlds of math and programming. My work is funded by IntrepidMaths.</p>
+            </div>
         </div>
-        <div class="col-md-6">
-            <h2>Hi, I'm Alex Sheng</h2>
-            <p>Email: alexanderxsheng@gmail.com</p>
-            <p>I am currently a maths student who enjoys math and coding. I am dedicated in sparking a love for math and cybersecurity in other people wherever I go amongst other interests. I am a web developer who makes applications and websites using Python, HTML, Javascript, and other languages to inspire others in the world of math and coding. My work is funded by IntrepidMaths and private sponsors.</p>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Add space here -->
-<div style="margin-top: 25px;"></div>
+    <!-- Add space here -->
+    <div style="margin-top: 25px;"></div>
 
-<!-- Projects Section -->
-<section id="featured-projects" class="w3-container w3-light-grey py-5">
-    <h2 class="w3-center mb-4">Featured Projects</h2>
-    <div class="w3-row-padding">
-        <div class="w3-col m4">
-            <div class="w3-card">
-                <div class="card-img-container">
-                    <img src="images/combinatorics.png" alt="Gauss">
+    <!-- Projects Section -->
+    <section id="featured-projects" class="bg-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="images/combinatorics.png" alt="Gauss">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Gauss Math Bot</h5>
+                            <p class="card-text">A Mathematical Bot powered by AI with Mathematical Functions.</p>
+                            <a href="gauss" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="w3-container">
-                    <h5 class="w3-center">Gauss Math Bot</h5>
-                    <p class="w3-center">A Mathematical Bot powered by AI with Mathematical Functions.</p>
-                    <a href="gauss" class="w3-button w3-block w3-blue">Learn More</a>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="images/calculator.png" alt="IntrepidGraph">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">IntrepidGraph</h5>
+                            <p class="card-text">A highly advanced Graphing Calculator that supports many functions.</p>
+                            <a href="graphing-calculator" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="images/online.png" alt="IntrepidPrimes">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">IntrepidPrimes</h5>
+                            <p class="card-text">Calculates Mersenne Primes up to a given limit.</p>
+                            <a href="mersenne-primes" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="w3-col m4">
-            <div class="w3-card">
-                <div class="card-img-container">
-                    <img src="images/calculator.png" alt="IntrepidGraph">
-                </div>
-                <div class="w3-container">
-                    <h5 class="w3-center">IntrepidGraph</h5>
-                    <p class="w3-center">A highly advanced Graphing Calculator that supports many functions.</p>
-                    <a href="graphing-calculator" class="w3-button w3-block w3-blue">Learn More</a>
-                </div>
-            </div>
-        </div>
-        <div class="w3-col m4">
-            <div class="w3-card">
-                <div class="card-img-container">
-                    <img src="images/online.png" alt="IntrepidPrimes">
-                </div>
-                <div class="w3-container">
-                    <h5 class="w3-center">IntrepidPrimes</h5>
-                    <p class="w3-center">Calculates Mersenne Primes up to a given limit.</p>
-                    <a href="mersenne-primes" class="w3-button w3-block w3-blue">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer class="w3-container w3-light-grey w3-center w3-padding-16">
-    &copy; 2024 IntrepidBird. All rights reserved.
-</footer>
+    <!-- Footer -->
+    <footer class="bg-light text-black text-center p-4">
+        &copy; 2024 IntrepidBird. All rights reserved.
+    </footer>
 
-<!-- jQuery JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    // Toggle function for small screens
-    function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-</script>
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
