@@ -10,6 +10,6 @@ Credits: Images from AoPS and Po Shen Loh
 
 Licensed under the [MIT License](https://opensource.org/license/mit/)
 
-Built and hosted using [Github Pages](https://pages.github.com/)
+Built and hosted using [GitHub Pages](https://pages.github.com/)
 
 © 2023 IntrepidBird
