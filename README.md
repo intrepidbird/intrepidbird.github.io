@@ -4,6 +4,6 @@ Alex Sheng (IntrepidBird)'s Personal Website
 
 -------------------------------------------------------------------------------------
 
-Disclaimer: Some images are from AoPS and Po Shen Loh
+Disclaimer: Some images are from AoPS and Po-Shen Loh
 
 © 2024 IntrepidBird
