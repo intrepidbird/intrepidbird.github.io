@@ -14,16 +14,20 @@ layout: default
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        .container {
-            margin: 10px auto;
-            max-width: 600px;
-            text-align: center;
+        .card-img-container {
+            height: 250px; /* Adjust this */
+            overflow: hidden;
         }
-        h1 {
-            margin: 30px 0;
-            font-size: 4em;
-            line-height: 1;
-            letter-spacing: -1px;
+
+        .card-img-container img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+        .social-icon {
+            width: 20px; /* Adjust this */
+            height: auto; /* Adjust this */
+            margin: 0 5px;
         }
     </style>
 </head>
