@@ -7,7 +7,7 @@ Current Version: **v.37.9.25**
 > [!IMPORTANT]  
 > Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
 
-Images and content posted in blogs may not be redistributed or reused.
+All content posted in blogs may not be redistributed or reused without permission from IntrepidBird.
 
 ----------------------------------------------
 
