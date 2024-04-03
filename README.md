@@ -2,7 +2,7 @@
 
 Alex Sheng (IntrepidBird)'s Personal Website
 
-Current Version: **v.37.9.25**
+Current Version: **v.48.36.8**
 
 > [!IMPORTANT]  
 > Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
