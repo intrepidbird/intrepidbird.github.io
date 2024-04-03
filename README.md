@@ -7,7 +7,7 @@ Current Version: **v.48.36.8**
 > [!IMPORTANT]  
 > Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
 
-All content posted in blogs may not be redistributed or reused without explicitly stated permission from Alex Sheng / IntrepidBird.
+All content posted in blogs may not be redistributed or reused without explicitly stated permission from Alex Sheng / IntrepidBird. Any violations are direct violations of the Security Policy.
 
 ----------------------------------------------
 
