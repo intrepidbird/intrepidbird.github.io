@@ -23,4 +23,4 @@ This chart lists what versions of this website are protected with security measu
 
 ## Reporting a Security Violation or Vulnerability
 
-DM 'intrepidbird' on discord if you find a violation of this document. It's literally that easy.
+DM 'intrepidbird' on discord if you find a violation of this document. If you do not have a discord account, please file a issue with the user's name.
