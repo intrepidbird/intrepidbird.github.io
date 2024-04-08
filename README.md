@@ -13,6 +13,6 @@ Disclaimer: Some images are from AoPS and various other sources. Opinions and wo
 
 ----------------------------------------------
 
-![image](https://intrepidbird.me/images/intrepidmaths.jpg)
+![Math Legend Alex Sheng's Banner](https://intrepidbird.me/images/intrepidmaths.jpg)
 
 © 2024 Alex Sheng. All rights reserved.
