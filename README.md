@@ -9,7 +9,7 @@ Current Version: **v.48.36.8**
 
 *You may use the code here to make your own website, but link my website and write 'Software used from intrepidbird.me' somewhere in your website. Please follow the license (MIT License) for further instructions.*
 
-Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own. My discord profile picture is now a Red Panda :D
+Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
 
 Friendlinks: [pointySphere](https://pointysphere.github.io/) | [Cellius-1](https://cellius-1.github.io/thernel.github.io/) | [Caburum](https://caburum.is-a.dev/)
 
