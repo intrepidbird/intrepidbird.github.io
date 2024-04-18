@@ -15,7 +15,7 @@
         var author = document.getElementById("comment-author").value;
         var email = document.getElementById("comment-email").value;
         var content = document.getElementById("comment-content").value;
-        $.post("https://codetiger.me/comment/comment.php",{"type":"post","id":id,"author":author,"email":email,"content":content},function(data){
+        $.post("https://intrepidbird.me/testing/comment/comment.php",{"type":"post","id":id,"author":author,"email":email,"content":content},function(data){
             if(data == 300) {
                 alert("Missing information, check if anything is blank.");
                 return;
