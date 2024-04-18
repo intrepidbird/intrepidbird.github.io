@@ -6,6 +6,112 @@
     <title>Comment Section</title>
     <!-- Add any necessary CSS or external libraries here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .comment {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 1px solid #CACACA;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    width: 96%;
+    background-color: #fff;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding-left: 2%;
+    line-height: 1.5;
+}
+
+.head-comment {
+	width: 96%;
+	padding-bottom: 20px;
+	padding-left: 2%;
+}
+
+.comment-input {
+	transition-duration: 0.3s;
+	width: 49.5%;
+	outline: none;
+	border: none;
+	line-height: 2;
+	font-size: 14px;
+	border-bottom: 1px dashed #E0E0E0;
+}
+
+.comment-input:focus {
+	border-bottom: 1px dashed #FF0000;
+	transition-duration: 0.3s;
+}
+
+.show-comment {
+	width: 90%;
+	border-bottom: 1px dashed #F2F2F2;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	position: relative;
+}
+
+.show-comment-2 {
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.show-comment-name {
+	line-height: 2;
+	font-size: 16px;
+	color: #1abc9c;
+	text-decoration: none;
+	font-weight: 550;
+}
+
+.show-comment-time {
+	line-height: 1.5;
+	font-size: 11px;
+	color: #555;
+	line-height: 2;
+}
+
+.show-comment-content {
+	padding-top: 15px;
+	font-size: 15px;
+}
+
+.comment-submit-wrap {
+	width: 96%;
+	margin-left: 2%;
+}
+
+
+.comment-submit {
+	transition-duration: 0.4s;
+	background-color: #EDEDED;
+	float: right;
+	width: 80px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: 1px solid #EDEDED !important;
+	box-shadow:none !important;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	color: #313131;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+}
+
+.comment-submit:hover,.comment-submit:active {
+	cursor: pointer;
+	transition-duration: .4s;
+	background: #FFFFFF;
+	border: 1px solid #3090e4 !important;
+	color: #3090e4;
+    </style>
 </head>
 <body>
 
