@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Section</title>
+    <!-- Add any necessary CSS or external libraries here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<script>
+    var id="28-blog14"
+    function postComment() {
+        var author = document.getElementById("comment-author").value;
+        var email = document.getElementById("comment-email").value;
+        var content = document.getElementById("comment-content").value;
+        $.post("https://codetiger.me/comment/comment.php",{"type":"post","id":id,"author":author,"email":email,"content":content},function(data){
+            if(data == 300) {
+                alert("Missing information, check if anything is blank.");
+                return;
+            }
+            if(data == 400) {
+                alert("Missing basic information.");
+                return;
+            }
+            $("#comment-sec").empty();
+            getComment();
+            alert("Success!");
+
+        });
+    }
+</script>
+
+<div class="comment">
+    <div class="head-comment">
+        <input type="text" id="comment-author" class="comment-input" placeholder="Name" required>
+        <input type="text" id="comment-email" class="comment-input" placeholder="Email" required>
+    </div>
+    <textarea cols="50" rows="8" id="comment-content" class="textarea" required style="font-size: 16px" placeholder=">.<"></textarea>
+    <div class="comment-submit-wrap">
+        <button class="comment-submit" onclick="postComment();">Reply</button>
+    </div>
+</div>
+
+<div id="comment-sec">
+</div>
+
+<script>
+    function commentStr(author,time,avatar,content) {
+        var contenttmp = '<div class="show-comment">' +
+            '<img src="https://codetiger.me/image/avatar' + avatar + '.png" width="50px" height="50px" style="float: left;">' +
+            '<div class="show-comment-2">' +
+            '<div class="show-comment-name">' +
+            author +
+            '</div>' +
+
+            '<div class="show-comment-time">' +
+            time +
+            '</div>' +
+
+            '<div class="show-comment-content">';
+
+        for(var i = 0;i < content.length;i++) {
+            contenttmp = contenttmp + content[i];
+            contenttmp = contenttmp + "<br>"
+        }
+
+        var tmp2 = '</div>' +
+            '</div>' +
+            '</div>';
+        return contenttmp + tmp2;
+    }
+
+    function timeRe(time) {
+        var arr = time.split("-");
+        return arr[0] + "/" + arr[1] + "/" + arr[2] + " " + arr[3] + ":" + arr[4];
+    }
+    function getComment() {
+        $.get("https://codetiger.me/comment/comment.php",{"id":id,"type":"get"},function(data) {
+            for(var i = 0;i < data.length;i++) {
+                var cur = data[data.length - i - 1];
+                var author = cur["author"];
+                var avatar = cur["avatar"];
+                var time = timeRe(cur["time"]);
+                var content = cur["content"];
+                $("#comment-sec").append(commentStr(author,time,avatar,content));
+            }
+
+        },'json');
+    }
+    getComment();
+</script>
+
+</body>
+</html>
