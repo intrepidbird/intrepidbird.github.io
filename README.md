@@ -15,6 +15,6 @@ Friendlinks: [pointySphere](https://pointysphere.github.io/) | [Cellius-1](https
 
 ----------------------------------------------
 
-![Alex Sheng orz](https://intrepidbird.me/images/intrepidmaths.jpg)
+![Alex Sheng]](https://intrepidbird.me/images/intrepidmaths.jpg)
 
 © 2024 Alex Sheng. All rights reserved.
