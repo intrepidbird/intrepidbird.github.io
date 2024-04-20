@@ -11,7 +11,7 @@ Current Version: **v.48.36.8**
 
 Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
 
-Friendlinks: [pointySphere](https://pointysphere.github.io) | [Cellius-1](https://cellius-1.github.io/thernel.github.io) | [Caburum](https://caburum.is-a.dev)
+Friendlinks: [pointySphere](https://pointysphere.github.io) | [Cellius-1](https://thernel.me) | [Caburum](https://caburum.is-a.dev)
 
 ----------------------------------------------
 
