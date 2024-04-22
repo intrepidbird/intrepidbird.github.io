@@ -26,11 +26,22 @@
             margin: 0 5px;
         }
         .navbar-nav .nav-item .nav-link {
+            position: relative;
             transition: color 0.3s; /* Add transition effect for color change */
         }
         
-        .navbar-nav .nav-item .nav-link:hover {
-            color: #007bff; /* Change color on hover */
+        .navbar-nav .nav-item .nav-link::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px; /* Height of the underline */
+            bottom: -2px; /* Adjust as needed */
+            background-color: #007bff; /* Color of the underline */
+            transition: width 0.3s; /* Add transition effect for width change */
+        }
+        
+        .navbar-nav .nav-item .nav-link:hover::before {
+            width: 100%; /* Expand the underline on hover */
         }
     </style>
 </head>
