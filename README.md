@@ -13,7 +13,7 @@ Disclaimer: Some images are from AoPS and various other sources. Opinions and wo
 
 Friendlinks: [pointySphere](https://pointysphere.github.io) | [Thernel](https://thernel.me) | [Caburum](https://caburum.is-a.dev)
 
-> I Don't Need Luck Though. I Don't Want It. I've Had To Struggle And Fight And That's Made Me Strong. It's Made Me Who I Am." - Prince Zuko
+> I don't need luck though. I don't want it. I've had to struggle and fight and that's made me strong. It's made me who I am." - Prince Zuko
 ----------------------------------------------
 
 ![Alex Sheng](https://intrepidbird.me/images/intrepidmaths.jpg)
