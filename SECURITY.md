@@ -2,10 +2,11 @@
 
 ## Supported Versions
 
-This chart lists what versions of this website are protected with security measures. I use Cloudflare to protect this website with HTTPS connections. Any version after v.37.9.25 will have security protections on GitHub as well. Only v.48.36.8 is active and allowed to be used.
+This chart lists what versions of this website are protected with security measures. I use Cloudflare to protect this website with HTTPS connections. Any version after v.37.9.25 will have security protections on GitHub as well. Only v.56.48.36 is active and allowed to be used.
 
 | Version | Supported | Cloudflare |
 | ------- | --------- | ---------- |
+| v.56.48.36 | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: |
 | v.48.36.8 | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: |
 | v.37.9.25 | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: |
 | v.30.16.46.2.1.10.1 | :x: | :white_check_mark: :white_check_mark: :white_check_mark: |
