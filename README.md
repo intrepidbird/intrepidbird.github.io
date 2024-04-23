@@ -2,7 +2,7 @@
 
 Alex Sheng (IntrepidBird)'s Personal Website
 
-Current Version: **v.48.36.8**
+Current Version: **v.56.48.36**
 
 > [!IMPORTANT]  
 > All content posted in blogs may not be redistributed or reused without explicitly stated permission from Alex Sheng / IntrepidBird. Any violations are direct violations of the Security Policy.
