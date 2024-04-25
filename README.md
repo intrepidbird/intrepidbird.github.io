@@ -16,6 +16,6 @@ Friendlinks: [pointySphere](https://pointysphere.github.io) | [Thernel](https://
 > I don't need luck though. I don't want it. I've had to struggle and fight and that's made me strong. It's made me who I am." - Prince Zuko
 ----------------------------------------------
 
-![Alex Sheng](https://intrepidbird.me/images/intrepidmaths.jpg)
+[![Alex Sheng](https://intrepidbird.me/images/intrepidmaths.jpg)](https://intrepidbird.me/)
 
 © 2024 Alex Sheng. All rights reserved.
