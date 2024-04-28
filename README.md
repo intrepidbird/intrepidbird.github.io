@@ -7,7 +7,7 @@ Current Version: [**v.56.48.36**](https://github.com/intrepidbird/intrepidbird.g
 > [!IMPORTANT]  
 > All content posted in blogs may not be redistributed or reused without explicitly stated permission from Alex Sheng / IntrepidBird. Any violations are direct violations of the Security Policy.
 
-*You may use the code here to make your own website, but link my website and write 'Software From intrepidbird.me Used in this Website' somewhere in your website. Please follow the license (MIT License) for further instructions.*
+*You may use the code here to make your own website, but link my website and write 'Software From intrepidbird.me Used in this Website' somewhere in your web application or personal webpage. Please follow the license (MIT License) for further instructions.*
 
 Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
 
