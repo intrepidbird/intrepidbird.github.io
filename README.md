@@ -9,7 +9,7 @@ Current Version: [**v.56.48.36**](https://github.com/intrepidbird/intrepidbird.g
 
 Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
 
-Friendlinks: [pointySphere](https://pointysphere.github.io) | [Thernel](https://thernel.me) | [Caburum](https://caburum.is-a.dev)
+Friendlinks: [Thernel](https://thernel.me) | [pointySphere](https://pointysphere.github.io) | [Caburum](https://caburum.is-a.dev)
 
 ----------------------------------------------
 
