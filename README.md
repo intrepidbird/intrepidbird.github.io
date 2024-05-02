@@ -17,4 +17,4 @@ Friendlinks: [Thernel](https://thernel.me) | [pointySphere](https://pointysphere
 
 [![Alex Sheng](https://intrepidbird.me/images/intrepidmaths.jpg)](https://intrepidbird.me/)
 
-© 2024 Alex Sheng. All rights reserved.
+© 2024 IntrepidBird. All rights reserved.
