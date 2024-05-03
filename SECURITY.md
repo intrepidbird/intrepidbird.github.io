@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-This chart lists what versions of this website are protected with security measures. Cloudflare is used to protect this website with HTTPS connections and basic protections. Any version after v.37.9.25 will have security protections on GitHub as well. Only v.56.48.36 is active and allowed to be used.
+This chart lists what versions of this website are protected with security measures. Cloudflare is used to protect this website with HTTPS connections and basic protections. Any version after v.37.9.25 will have security protections on GitHub as well. Only version v.56.48.36 is active and allowed to be used.
 
 | Version | Policy | Cloudflare |
 | ------- | --------- | ---------- |
