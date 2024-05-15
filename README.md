@@ -11,10 +11,8 @@ Disclaimer: Some images are from AoPS and various other sources. Opinions and wo
 
 Friendlinks: [Thernel](https://thernel.me) | [pointySphere](https://pointysphere.github.io) | [Caburum](https://caburum.is-a.dev)
 
-<!-- Fortuna et Gloria Semper Mecum -->
-
 ----------------------------------------------
 
-[![Alex Sheng](https://intrepidbird.me/images/intrepidmaths.jpg)](https://intrepidbird.me/)
+[![Alex Sheng](https://intrepidbird.me/images/intrepidmaths.jpg)](https://intrepidbird.me)
 
 © 2024 IntrepidBird. All rights reserved.
