@@ -32,7 +32,7 @@ def rss_feed():
             'pubDate': datetime(2024, 2, 24, 0, 0, 0, tzinfo=pytz.UTC)
         },
         {
-            'title': 'BRCS's First Year',
+            'title': 'BRCSs First Year',
             'link': 'https://intrepidbird.me/blog/posts/premier-blog-post/',
             'description': 'My thoughts on being a co-founder and the Bridgewater-Raritan Computer Science Club's wonderful inaugural year.',
             'pubDate': datetime(2024, 3, 12, 0, 0, 0, tzinfo=pytz.UTC)
@@ -44,7 +44,7 @@ def rss_feed():
             'pubDate': datetime(2024, 4, 6, 0, 0, 0, tzinfo=pytz.UTC)
         },
         {
-            'title': 'Po-Shen Loh's Math Talk',
+            'title': 'Po-Shen Lohs Math Talk',
             'link': 'https://intrepidbird.me/blog/posts/watching-po-shen-loh-at-a-math-conference/',
             'description': 'Reflections on hearing Professor Po-Shen Loh's talk about mathematics, competitions, and AI's role in math.',
             'pubDate': datetime(2024, 4, 7, 0, 0, 0, tzinfo=pytz.UTC)
