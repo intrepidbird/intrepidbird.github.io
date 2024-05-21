@@ -34,7 +34,7 @@ def rss_feed():
         {
             'title': 'BRCSs First Year',
             'link': 'https://intrepidbird.me/blog/posts/premier-blog-post/',
-            'description': 'My thoughts on being a co-founder and the Bridgewater-Raritan Computer Science Club's wonderful inaugural year.',
+            'description': 'My thoughts on being a co-founder and the Bridgewater-Raritan Computer Science Clubs wonderful inaugural year.',
             'pubDate': datetime(2024, 3, 12, 0, 0, 0, tzinfo=pytz.UTC)
         },
         {
