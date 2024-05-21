@@ -46,7 +46,7 @@ def rss_feed():
         {
             'title': 'Po-Shen Lohs Math Talk',
             'link': 'https://intrepidbird.me/blog/posts/watching-po-shen-loh-at-a-math-conference/',
-            'description': 'Reflections on hearing Professor Po-Shen Loh's talk about mathematics, competitions, and AIs role in math.',
+            'description': 'Reflections on hearing Professor Po-Shen Lohs talk about mathematics, competitions, and AIs role in math.',
             'pubDate': datetime(2024, 4, 7, 0, 0, 0, tzinfo=pytz.UTC)
         },
         {
