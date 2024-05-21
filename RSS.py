@@ -40,13 +40,13 @@ def rss_feed():
         {
             'title': 'RidgeHacks 2024',
             'link': 'https://intrepidbird.me/blog/posts/how-we-cooked-so-hard-at-ridgehacks-with-graze/',
-            'description': 'We won 2nd Place overall out of 22 teams at RidgeHacks 2024 with our HTML, CSS, and Flask application named 'Graze'.',
+            'description': 'We won 2nd Place overall out of 22 teams at RidgeHacks 2024 with our HTML, CSS, and Flask application named Graze.',
             'pubDate': datetime(2024, 4, 6, 0, 0, 0, tzinfo=pytz.UTC)
         },
         {
             'title': 'Po-Shen Lohs Math Talk',
             'link': 'https://intrepidbird.me/blog/posts/watching-po-shen-loh-at-a-math-conference/',
-            'description': 'Reflections on hearing Professor Po-Shen Loh's talk about mathematics, competitions, and AI's role in math.',
+            'description': 'Reflections on hearing Professor Po-Shen Loh's talk about mathematics, competitions, and AIs role in math.',
             'pubDate': datetime(2024, 4, 7, 0, 0, 0, tzinfo=pytz.UTC)
         },
         {
@@ -58,7 +58,7 @@ def rss_feed():
         {
             'title': 'MontyHacks VII',
             'link': 'https://intrepidbird.me/blog/posts/making-blaze-at-montyhacks-vii/',
-            'description': 'My journey and experiences at MontyHacks VII building the HTML and CSS for our Flask application named 'Blaze'.',
+            'description': 'My journey and experiences at MontyHacks VII building the HTML and CSS for our Flask application named Blaze.',
             'pubDate': datetime(2024, 5, 18, 0, 0, 0, tzinfo=pytz.UTC)
         }, 
     ]
