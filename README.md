@@ -1,5 +1,8 @@
 # [intrepidbird.me](https://intrepidbird.me)
 
+> [!IMPORTANT]
+> **Gauss Math Tournament + Logistem Science Challenger Wins for Alex Sheng! / 600th Commit! 🏆💯🥇🔥🏅**
+
 Alex Sheng (IntrepidBird)'s Personal Website
 
 Current Version: [**v.56.48.36**](https://github.com/intrepidbird/intrepidbird.github.io/releases/tag/v.56.48.36)
