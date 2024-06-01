@@ -7,7 +7,7 @@ Current Version: [**v.56.48.36**](https://github.com/intrepidbird/intrepidbird.g
 > [!IMPORTANT]  
 > All content posted in blogs may not be redistributed or reused without explicitly stated permission from Alex Sheng aka IntrepidBird. Any violations are direct violations of the Security Policy.
 
-Disclaimer: Some images are from AoPS and various other sources. Opinions and words are my own.
+Disclaimer: I do not have the copyright to some images. Opinions and words are my own.
 
 Friendlinks: [Thernel](https://thernel.me) | [pointySphere](https://pointysphere.github.io) | [Caburum](https://caburum.is-a.dev) | [FoxJava](https://foxjavagauss.github.io/My-Personal-Website/) | [BRCS](https://brcomputerscience.github.io)
 
