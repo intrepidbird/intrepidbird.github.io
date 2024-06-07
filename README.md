@@ -9,7 +9,7 @@ Current Version: [**v.56.48.36**](https://github.com/intrepidbird/intrepidbird.g
 
 Disclaimer: I do not have the copyright to some images. Opinions and words are my own.
 
-Friendlinks: [Thernel](https://thernel.me) | [pointySphere](https://pointysphere.github.io) | [Caburum](https://caburum.is-a.dev) | [FoxJava](https://foxjavagauss.github.io/My-Personal-Website/) | [BRCS](https://brcomputerscience.github.io)
+Friendlinks: [Thernel](https://thernel.me) | [pointySphere](https://pointysphere.github.io) | [Caburum](https://caburum.is-a.dev) | [FoxJavaGauss](https://foxjavagauss.github.io/My-Personal-Website/) | [BRCS](https://brcomputerscience.github.io)
 
 ----------------------------------------------
 
