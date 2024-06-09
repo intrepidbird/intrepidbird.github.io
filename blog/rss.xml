@@ -67,6 +67,13 @@
             <description>My journey and experiences at MontyHacks VII building the HTML and CSS for our Flask application named Blaze.</description>
             <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
         </item>
+
+        <item>
+            <title>Logistem Science Challenger</title>
+            <link>https://intrepidbird.me/blog/posts/how-i-became-the-grand-champion-in-the-logistem-science-challenger/</link>
+            <description>After 3 long years, I finally became the Grand Champion in the highest division of Logistem's prestigious annual Science Challenger!</description>
+            <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+        </item>
         
       </channel>
     </rss>
