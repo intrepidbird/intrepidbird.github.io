@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,118 +94,37 @@
         <h1>IntrepidBird's Blog</h1>
     </header>
 
+    <!-- Filter Dropdown -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="dropdown float-right">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sort by
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#" id="sort-newest">Newest</a>
+                        <a class="dropdown-item" href="#" id="sort-oldest">Oldest</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <!-- Blog Posts -->
 <section id="posts" class="container mt-5">
     <div class="row">
-        <!-- Blog Post 1 -->
+        <!-- Blog Post 10 -->
         <div class="col-md-4">
             <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/blog.jpg" class="card-img-top" alt="Blog">
+                <img src="https://intrepidbird.me/images/logistem.png" class="card-img-top" alt="Logistem">
                 <div class="card-body">
-                    <h5 class="card-title">First Blog Post</h5>
-                    <div class="tags">
-                        <a href="https://intrepidbird.me/blog/tags/general/" class="badge badge-general">General</a>
-                    </div>
-                    <p class="card-text">1/20/2024 - This is my very first blog post. Please read my statement on having a blog and sharing my thoughts.</p>
-                    <a href="https://intrepidbird.me/blog/posts/premier-blog-post/" class="btn btn-primary">Read Here</a>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Post 2 -->
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/maa-logo.jpg" class="card-img-top" alt="MAA Logo">
-                <div class="card-body">
-                    <h5 class="card-title">MAA 2024 AMC 8 Leaks Need to be Investigated</h5>
-                    <div class="tags">
-                        <a href="https://intrepidbird.me/blog/tags/math/" class="badge badge-math">Math</a>
-                    </div>
-                    <p class="card-text">1/21/2024 - The 2024 AMC 8 was leaked. I think that MAA needs to investigate this and protect the integrity of the competition.</p>
-                    <a href="https://intrepidbird.me/blog/posts/maa-needs-to-react-to-2024-amc-8-leaks" class="btn btn-primary">Read Here</a>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Post 3 -->
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/mathcounts.jpeg" class="card-img-top" alt="MathCounts Logo">
-                <div class="card-body">
-                    <h5 class="card-title">MathCounts 2024</h5>
-                    <div class="tags">
-                        <a href="https://intrepidbird.me/blog/tags/math/" class="badge badge-math">Math</a>
-                    </div>
-                    <p class="card-text">2/4/2024 - I placed 9th out of ~300 people in my Chapter and captained my school this year in MathCounts. It was a well-planned and great event this year.</p>
-                    <a href="https://intrepidbird.me/blog/posts/mathcounts-2024-was-a-win" class="btn btn-primary">Read Here</a>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Post 4 -->
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/science-bowl.png" class="card-img-top" alt="Science Bowl Logo">
-                <div class="card-body">
-                    <h5 class="card-title">Science Bowl 2024</h5>
+                    <h5 class="card-title">Logistem Science Challenger</h5>
                     <div class="tags">
                         <a href="https://intrepidbird.me/blog/tags/science/" class="badge badge-science">Science</a>
                     </div>
-                    <p class="card-text">2/24/2024 - My experiences participating in and captaining my school to 2nd Place at the 2024 NJ MS Science Bowl! We had a great time at PPPL this year!</p>
-                    <a href="https://intrepidbird.me/blog/posts/new-jersey-regional-science-bowl-2024-pppl-sheng-brms" class="btn btn-primary">Read Here</a>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Post 5 -->
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/brcomputerscience.png" class="card-img-top" alt="BRCS">
-                <div class="card-body">
-                    <h5 class="card-title">BRCS's First Year</h5>
-                    <div class="tags">
-                        <a href="https://intrepidbird.me/blog/tags/computer-science/" class="badge badge-compsci">Computer Science</a>
-                    </div>
-                    <p class="card-text">3/12/2024 - My thoughts on being a co-founder and the Bridgewater-Raritan Computer Science Club's wonderful inaugural year.</p>
-                    <a href="https://intrepidbird.me/blog/posts/cofounder-analyzing-the-first-year-of-brcs/" class="btn btn-primary">Read Here</a>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Post 6 -->
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/graze-devpost.png" class="card-img-top" alt="RidgeHacks">
-                <div class="card-body">
-                    <h5 class="card-title">RidgeHacks 2024</h5>
-                    <div class="tags">
-                        <a href="https://intrepidbird.me/blog/tags/computer-science/" class="badge badge-compsci">Computer Science</a>
-                    </div>
-                    <p class="card-text">4/6/2024 - We won 2nd Place overall out of 22 teams at RidgeHacks 2024 with our HTML, CSS, and Flask application named 'Graze'.</p>
-                    <a href="https://intrepidbird.me/blog/posts/how-we-cooked-so-hard-at-ridgehacks-with-graze/" class="btn btn-primary">Read Here</a>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Post 7 -->
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/ommc.jpg" class="card-img-top" alt="OMMC REPS 2024">
-                <div class="card-body">
-                    <h5 class="card-title">Po-Shen Loh's Math Talk</h5>
-                    <div class="tags">
-                        <a href="https://intrepidbird.me/blog/tags/math/" class="badge badge-math">Math</a>
-                    </div>
-                    <p class="card-text">4/7/2024 - Reflections on hearing Professor Po-Shen Loh's talk about mathematics, competitions, and AI's role in math.</p>
-                    <a href="https://intrepidbird.me/blog/posts/watching-po-shen-loh-at-a-math-conference/" class="btn btn-primary">Read Here</a>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Post 8 -->
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/nhl-playoffs.png" class="card-img-top" alt="NHL Playoffs">
-                <div class="card-body">
-                    <h5 class="card-title">2024 NHL Playoffs</h5>
-                    <div class="tags">
-                        <a href="https://intrepidbird.me/blog/tags/hockey/" class="badge badge-hockey">Hockey</a>
-                    </div>
-                    <p class="card-text">Live - Live Blog of the 2024 National Hockey League Stanley Cup Playoffs. </p>
-                    <a href="https://intrepidbird.me/blog/posts/2024-nhl-playoffs-reactions-blog/" class="btn btn-primary">Read Here</a>
+                    <p class="card-text">6/9/2024 - After 3 long years, I finally became the Grand Champion in the highest division of Logistem's prestigious annual Science Challenger!</p>
+                    <a href="https://intrepidbird.me/blog/posts/how-i-became-the-grand-champion-in-the-logistem-science-challenger/" class="btn btn-primary">Read Here</a>
                 </div>
             </div>
         </div>
@@ -224,17 +142,115 @@
                 </div>
             </div>
         </div>
-        <!-- Blog Post 10 -->
+        <!-- Blog Post 8 -->
         <div class="col-md-4">
             <div class="card mb-4">
-                <img src="https://intrepidbird.me/images/logistem.png" class="card-img-top" alt="Logistem">
+                <img src="https://intrepidbird.me/images/nhl-playoffs.png" class="card-img-top" alt="NHL Playoffs">
                 <div class="card-body">
-                    <h5 class="card-title">Logistem Science Challenger</h5>
+                    <h5 class="card-title">2024 NHL Playoffs</h5>
+                    <div class="tags">
+                        <a href="https://intrepidbird.me/blog/tags/hockey/" class="badge badge-hockey">Hockey</a>
+                    </div>
+                    <p class="card-text">Live - Live Blog of the 2024 National Hockey League Stanley Cup Playoffs. </p>
+                    <a href="https://intrepidbird.me/blog/posts/2024-nhl-playoffs-reactions-blog/" class="btn btn-primary">Read Here</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post 7 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://intrepidbird.me/images/ommc.jpg" class="card-img-top" alt="OMMC REPS 2024">
+                <div class="card-body">
+                    <h5 class="card-title">Po-Shen Loh's Math Talk</h5>
+                    <div class="tags">
+                        <a href="https://intrepidbird.me/blog/tags/math/" class="badge badge-math">Math</a>
+                    </div>
+                    <p class="card-text">4/7/2024 - Reflections on hearing Professor Po-Shen Loh's talk about mathematics, competitions, and AI's role in math.</p>
+                    <a href="https://intrepidbird.me/blog/posts/watching-po-shen-loh-at-a-math-conference/" class="btn btn-primary">Read Here</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post 6 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://intrepidbird.me/images/graze-devpost.png" class="card-img-top" alt="RidgeHacks">
+                <div class="card-body">
+                    <h5 class="card-title">RidgeHacks 2024</h5>
+                    <div class="tags">
+                        <a href="https://intrepidbird.me/blog/tags/computer-science/" class="badge badge-compsci">Computer Science</a>
+                    </div>
+                    <p class="card-text">4/6/2024 - We won 2nd Place overall out of 22 teams at RidgeHacks 2024 with our HTML, CSS, and Flask application named 'Graze'.</p>
+                    <a href="https://intrepidbird.me/blog/posts/how-we-cooked-so-hard-at-ridgehacks-with-graze/" class="btn btn-primary">Read Here</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post 5 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://intrepidbird.me/images/brcomputerscience.png" class="card-img-top" alt="BRCS">
+                <div class="card-body">
+                    <h5 class="card-title">BRCS's First Year</h5>
+                    <div class="tags">
+                        <a href="https://intrepidbird.me/blog/tags/computer-science/" class="badge badge-compsci">Computer Science</a>
+                    </div>
+                    <p class="card-text">3/12/2024 - My thoughts on being a co-founder and the Bridgewater-Raritan Computer Science Club's wonderful inaugural year.</p>
+                    <a href="https://intrepidbird.me/blog/posts/cofounder-analyzing-the-first-year-of-brcs/" class="btn btn-primary">Read Here</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post 4 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://intrepidbird.me/images/science-bowl.png" class="card-img-top" alt="Science Bowl Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Science Bowl 2024</h5>
                     <div class="tags">
                         <a href="https://intrepidbird.me/blog/tags/science/" class="badge badge-science">Science</a>
                     </div>
-                    <p class="card-text">6/9/2024 - After 3 long years, I finally became the Grand Champion in the highest division of Logistem's prestigious annual Science Challenger!</p>
-                    <a href="https://intrepidbird.me/blog/posts/how-i-became-the-grand-champion-in-the-logistem-science-challenger/" class="btn btn-primary">Read Here</a>
+                    <p class="card-text">2/24/2024 - My experiences participating in and captaining my school to 2nd Place at the 2024 NJ MS Science Bowl! We had a great time at PPPL this year!</p>
+                    <a href="https://intrepidbird.me/blog/posts/new-jersey-regional-science-bowl-2024-pppl-sheng-brms" class="btn btn-primary">Read Here</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post 3 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://intrepidbird.me/images/mathcounts.jpeg" class="card-img-top" alt="MathCounts Logo">
+                <div class="card-body">
+                    <h5 class="card-title">MathCounts 2024</h5>
+                    <div class="tags">
+                        <a href="https://intrepidbird.me/blog/tags/math/" class="badge badge-math">Math</a>
+                    </div>
+                    <p class="card-text">2/4/2024 - I placed 9th out of ~300 people in my Chapter and captained my school this year in MathCounts. It was a well-planned and great event this year.</p>
+                    <a href="https://intrepidbird.me/blog/posts/mathcounts-2024-was-a-win" class="btn btn-primary">Read Here</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post 2 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://intrepidbird.me/images/maa-logo.jpg" class="card-img-top" alt="MAA Logo">
+                <div class="card-body">
+                    <h5 class="card-title">MAA 2024 AMC 8 Leaks Need to be Investigated</h5>
+                    <div class="tags">
+                        <a href="https://intrepidbird.me/blog/tags/math/" class="badge badge-math">Math</a>
+                    </div>
+                    <p class="card-text">1/21/2024 - The 2024 AMC 8 was leaked. I think that MAA needs to investigate this and protect the integrity of the competition.</p>
+                    <a href="https://intrepidbird.me/blog/posts/maa-needs-to-react-to-2024-amc-8-leaks" class="btn btn-primary">Read Here</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post 1 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://intrepidbird.me/images/blog.jpg" class="card-img-top" alt="Blog">
+                <div class="card-body">
+                    <h5 class="card-title">First Blog Post</h5>
+                    <div class="tags">
+                        <a href="https://intrepidbird.me/blog/tags/general/" class="badge badge-general">General</a>
+                    </div>
+                    <p class="card-text">1/20/2024 - This is my very first blog post. Please read my statement on having a blog and sharing my thoughts.</p>
+                    <a href="https://intrepidbird.me/blog/posts/premier-blog-post/" class="btn btn-primary">Read Here</a>
                 </div>
             </div>
         </div>
@@ -257,4 +273,21 @@
     <!-- Bootstrap & jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const postsContainer = document.getElementById('posts')
+            const posts = Array.from(postsContainer.getElementsByClassName('col-md-4'))
+
+            document.getElementById('sort-newest').addEventListener('click', function() {
+                posts.sort((a, b) => new Date(b.querySelector('.card-text').innerText.split(' - ')[0]) - new Date(a.querySelector('.card-text').innerText.split(' - ')[0]))
+                posts.forEach(post => postsContainer.appendChild(post))
+            })
+
+            document.getElementById('sort-oldest').addEventListener('click', function() {
+                posts.sort((a, b) => new Date(a.querySelector('.card-text').innerText.split(' - ')[0]) - new Date(b.querySelector('.card-text').innerText.split(' - ')[0]))
+                posts.forEach(post => postsContainer.appendChild(post))
+            })
+        })
+    </script>
 </body>
+</html>
