@@ -272,11 +272,6 @@
         const posts = Array.from(postsContainer.getElementsByClassName('col-md-4'));
 
         const sortPosts = () => {
-            // Remove all posts from container
-            while (postsContainer.firstChild) {
-                postsContainer.removeChild(postsContainer.firstChild);
-            }
-
             // Sort posts
             posts.sort((a, b) => {
                 const dateA = new Date(a.querySelector('.card-text').innerText.split(' - ')[0]);
@@ -284,18 +279,17 @@
                 return dateB - dateA;
             });
 
-            // Append sorted posts to container in rows of three
-            let row;
-            posts.forEach((post, index) => {
-                if (index % 3 === 0) {
-                    row = document.createElement('div');
-                    row.classList.add('row');
-                    postsContainer.appendChild(row);
-                }
+            // Remove all posts from container
+            while (postsContainer.firstChild) {
+                postsContainer.removeChild(postsContainer.firstChild);
+            }
+
+            // Re-append sorted posts to container
+            posts.forEach(post => {
                 const col = document.createElement('div');
                 col.classList.add('col-md-4');
                 col.appendChild(post);
-                row.appendChild(col);
+                postsContainer.appendChild(col);
             });
         };
 
