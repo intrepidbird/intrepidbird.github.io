@@ -94,16 +94,6 @@
         <h1>IntrepidBird's Blog</h1>
     </header>
 
-<!-- Sort Buttons -->
-<div class="container mt-3">
-    <div class="row justify-content-end">
-        <div class="col-md-12 text-right">
-            <button class="btn btn-primary mr-2" id="sort-newest">Sort by Newest</button>
-            <button class="btn btn-primary" id="sort-oldest">Sort by Oldest</button>
-        </div>
-    </div>
-</div>
-
 <!-- Blog Posts -->
 <section id="posts" class="container mt-5">
     <div class="row">
@@ -266,39 +256,5 @@
     <!-- Bootstrap & jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const postsContainer = document.getElementById('posts');
-        const posts = Array.from(postsContainer.getElementsByClassName('col-md-4'));
-
-        const sortPosts = () => {
-            // Sort posts
-            posts.sort((a, b) => {
-                const dateA = new Date(a.querySelector('.card-text').innerText.split(' - ')[0]);
-                const dateB = new Date(b.querySelector('.card-text').innerText.split(' - ')[0]);
-                return dateB - dateA;
-            });
-
-            // Remove all posts from container
-            while (postsContainer.firstChild) {
-                postsContainer.removeChild(postsContainer.firstChild);
-            }
-
-            // Re-append sorted posts to container
-            posts.forEach(post => {
-                const col = document.createElement('div');
-                col.classList.add('col-md-4');
-                col.appendChild(post);
-                postsContainer.appendChild(col);
-            });
-        };
-
-        document.getElementById('sort-newest').addEventListener('click', sortPosts);
-        document.getElementById('sort-oldest').addEventListener('click', sortPosts);
-
-        // Initial sorting
-        sortPosts();
-    });
-</script>
 </body>
 </html>
