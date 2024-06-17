@@ -15,4 +15,3 @@ Disclaimer: I do not have the copyright to some images. Opinions and words are m
 Friendlinks: [FoxJavaGauss (Jay Fang)](https://foxjavagauss.github.io/My-Personal-Website/) | [Thernel (Tharun Naguleswaran)](https://thernel.me) | [pointySphere (Dhruv Rakhade)](https://pointysphere.github.io)
 
 © 2024 IntrepidBird. All rights reserved.
-
