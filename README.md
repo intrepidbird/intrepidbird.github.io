@@ -5,7 +5,7 @@ Alex Sheng (IntrepidBird)'s Personal Website
 Current Version: [**v.56.48.36**](https://github.com/intrepidbird/intrepidbird.github.io/releases/tag/v.56.48.36)
 
 > [!NOTE]  
-> As of 6/14/2024, all blog posts are now listed from newest to oldest.
+> We are finishing up our **final touches** before a game-changing release of the IntrepidBird website!
 
 > [!IMPORTANT]  
 > All content posted in blogs is copyrighted and may not be redistributed or reused without explicitly stated permission from Alex Sheng (IntrepidBird). Please read the Security Policy for more information.
