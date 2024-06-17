@@ -10,7 +10,7 @@ Current Version: [**v.56.48.36**](https://github.com/intrepidbird/intrepidbird.g
 > [!IMPORTANT]  
 > All content posted in blogs is copyrighted and may not be redistributed or reused without explicitly stated permission from Alex Sheng (IntrepidBird). Please read the Security Policy for more information.
 
-Disclaimer: I do not have the copyright to some images. Opinions and words are my own.
+Disclaimer: I do not possess the copyright for certain images. Opinions and words are my own.
 
 Friendlinks: [FoxJavaGauss (Jay Fang)](https://foxjavagauss.github.io/My-Personal-Website/) | [Thernel (Tharun Naguleswaran)](https://thernel.me) | [pointySphere (Dhruv Rakhade)](https://pointysphere.github.io)
 
