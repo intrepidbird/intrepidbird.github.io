@@ -6,6 +6,7 @@ This chart lists what versions of this website are protected with security measu
 
 | Version | Policy | Cloudflare |
 | ------- | --------- | ---------- |
+| v.64.48.36 | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: |
 | v.56.48.36 | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: |
 | v.48.36.8 | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: |
 | v.37.9.25 | :white_check_mark: | :white_check_mark: :white_check_mark: :white_check_mark: |
