@@ -9,6 +9,4 @@ Current Version: [**v.64.48.36**](https://github.com/intrepidbird/intrepidbird.g
 
 Disclaimer: I do not possess the copyright for certain images. Opinions and words are my own.
 
-Friendlinks: [FoxJavaGauss (Jay Fang)](https://foxjavagauss.github.io/My-Personal-Website/) | [Thernel (Tharun Naguleswaran)](https://thernel.me) | [pointySphere (Dhruv Rakhade)](https://pointysphere.github.io)
-
 © 2024 IntrepidBird. All rights reserved.
