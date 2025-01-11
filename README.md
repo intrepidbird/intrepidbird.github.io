@@ -1,6 +1,6 @@
 # [intrepidbird.me](https://intrepidbird.me)
 
-Alex Sheng's personal website :)
+**Alex Sheng's personal website :)**
 
 Blog opinions or ideas are my own
 
