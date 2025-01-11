@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- © 2025 Alex Sheng -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Alex Sheng, Alexander Sheng, Sheng, alexsheng, alex sheng, alexsheng675, asheng, intrepidbird, intrepidbird97">
+    <title>Alex Sheng | Blog</title>
+    <link rel="icon" href="images/A.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #bae5ec;
+            color: #0e4677;
+            background-size: cover;
+        }
+        .navbar {
+            background-color: #0090cf;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+        }
+        .card-img-container {
+            height: 250px;
+            overflow: hidden;
+        }
+        .card-img-container img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+        .social-icon {
+            width: 20px;
+            height: auto;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        #short-bio {
+            margin-bottom: 120px;
+        }
+        #short-bio h2, #short-bio p {
+            color: #0e4677;
+        }
+        #blog-posts {
+            padding-top: 50px;
+        }
+        #blog-posts h2 {
+            color: #0e4677;
+        }
+        .bg-gray-100 {
+            background-color: #0090cf !important;
+        }
+        footer {
+            background-color: #0090cf;
+            color: white;
+        }
+        footer a {
+            color: white;
+        }
+        .btn-read {
+            display: inline-block;
+            background-color: #0e4677;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem; /* rounded-lg */
+            text-align: center;
+            text-decoration: none;
+        }
+        #blog h2 {
+        color: #0e4677;
+        }
+    </style>
+</head>
+<body class="text-gray-900">
+
+    <nav class="navbar p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-xl font-bold" href="/">Alex Sheng</a>
+            <button class="lg:hidden p-2 text-white focus:outline-none focus:ring" id="navbar-toggle">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <div class="hidden lg:flex space-x-4" id="navbar-menu">
+                <a class="hover:text-gray-200" href="#">Blog</a>
+                <a class="hover:text-gray-200" href="/projects">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="blog" class="py-10 relative z-10">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-bold text-center mb-8">Blog</h2>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                        <div class="card-img-container">
+                            <img src="images/blog.png">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="text-xl font-bold mb-2">Blog Post</h5>
+                            <a href="about" class="btn-read">Read Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                        <div class="card-img-container">
+                            <img src="images/blog.png">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="text-xl font-bold mb-2">Blog Post</h5>
+                            <a href="about" class="btn-read">Read Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                        <div class="card-img-container">
+                            <img src="images/blog.png">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="text-xl font-bold mb-2">Blog Post</h5>
+                            <a href="about" class="btn-read">Read Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-4 text-center">
+        <div class="container mx-auto">
+            &copy; 2025 Alex Sheng.
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        document.getElementById('navbar-toggle').addEventListener('click', function () {
+            const menu = document.getElementById('navbar-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
