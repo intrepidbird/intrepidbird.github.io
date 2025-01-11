@@ -6,4 +6,8 @@ Blog opinions or ideas are my own
 
 (c) 2025 Alex Sheng
 
-*Looking for the old website? See [/archives](https://github.com/intrepidbird-org/archive)*
+<details close>
+<summary>Looking for the old website?</summary>
+<br>
+See https://github.com/intrepidbird-org/archive
+</details>
