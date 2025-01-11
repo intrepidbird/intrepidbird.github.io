@@ -65,6 +65,14 @@
             text-align: center;
             text-decoration: none;
         }
+        .w-full img {
+        margin-left: 100px;
+    }
+        @media (max-width: 768px) {
+        .w-full img {
+            margin-left: 0;
+        }
+    }
     </style>
 </head>
 <body class="text-gray-900">
@@ -87,7 +95,7 @@
     <section id="short-bio" class="container mx-auto mt-10 pb-20 relative z-10">
         <div class="flex flex-wrap">
         <div class="w-full md:w-1/2 p-4">
-            <img src="images/alexsheng.jpeg" alt="Alex Sheng" class="w-full h-auto max-w-xs rounded-lg" style="max-width: calc(1.5 * 20rem); height: auto; margin-left: 100px;">
+            <img src="images/alexsheng.jpeg" alt="Alex Sheng" class="w-full h-auto max-w-xs rounded-lg" style="max-width: calc(1.5 * 20rem); height: auto;">
         </div>
             <div class="w-full md:w-1/2 p-4">
                 <h2 class="text-5xl font-bold mb-6">Alex Sheng</h2>
