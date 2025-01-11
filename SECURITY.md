@@ -1,5 +1,8 @@
 # Security Policy
 
+> [!IMPORTANT]
+> Security policy is now archived and will no longer be updated
+
 ## Supported Versions
 
 This chart lists what versions of this website are protected with security measures. Cloudflare is used to protect this website with HTTPS connections and basic protections. Any version after v.37.9.25 will have security protections on GitHub as well. Only version v.64.48.36 is active and allowed to be used.
