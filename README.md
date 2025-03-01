@@ -1,6 +1,6 @@
 # [intrepidbird.me](https://intrepidbird.me)
 
-**Alex Sheng's personal website 😄🧋🧧**
+**Alex Sheng's personal website 😄🧋**
 
 Last major update to website was on 1/11/2025
 
