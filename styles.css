@@ -10,6 +10,21 @@ body {
 .navbar a {
     color: white;
 }
+.card-img-container {
+    height: 250px;
+    overflow: hidden;
+}
+.card-img-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.social-icon {
+    width: 20px;
+    height: auto;
+    margin: 0 10px;
+    display: inline-block;
+}
 #short-bio {
     margin-bottom: 120px;
 }
@@ -21,6 +36,9 @@ body {
 }
 #blog-posts h2 {
     color: #0e4677;
+}
+.bg-gray-100 {
+    background-color: #0090cf !important;
 }
 footer {
     background-color: #0090cf;
@@ -38,8 +56,10 @@ footer a {
     text-align: center;
     text-decoration: none;
 }
+#blog h2 {
+    color: #0e4677;
+}
 
-/* Center the quote header */
 .quote-header {
     text-align: center;
     margin-top: 2rem;
@@ -49,7 +69,6 @@ footer a {
     border-radius: 0.5rem;
 }
 
-/* Center the tags */
 .tags-section {
     text-align: center;
     margin-top: 2em;
