@@ -59,7 +59,6 @@ footer a {
 #blog h2 {
     color: #0e4677;
 }
-
 .quote-header {
     text-align: center;
     margin-top: 2rem;
@@ -68,7 +67,6 @@ footer a {
     color: white;
     border-radius: 0.5rem;
 }
-
 .tags-section {
     text-align: center;
     margin-top: 2em;
@@ -83,4 +81,13 @@ footer a {
     margin: 0.25em;
     border-radius: 0.375em;
     font-size: 0.9em;
+}
+h1 {
+    color: #0e4677;
+}
+#notable-projects h2 {
+    color: #0e4677 !important;
+}
+#other-projects h2 {
+    color: #0e4677 !important;
 }
