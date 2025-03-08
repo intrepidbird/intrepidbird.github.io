@@ -8,6 +8,8 @@ Blog opinions or ideas are my own
 
 (c) 2025 Alex Sheng
 
+<!-- 888 -->
+
 <details close>
 <summary>Looking for the old website?</summary>
 <br>
