@@ -1,7 +1,5 @@
 # [intrepidbird.me](https://intrepidbird.me)
 
-## yayy
-
 **Alex Sheng's personal website 😄**
 
 Last major update to website was on 1/11/2025
