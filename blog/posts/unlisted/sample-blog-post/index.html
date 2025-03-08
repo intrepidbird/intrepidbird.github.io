@@ -62,28 +62,58 @@
             color: #0e4677;
         }
         .blog-content img {
-            float: left;
-            margin: 0 20px 20px 0;
-            max-width: 40%;
+            width: 100%;
             height: auto;
+            margin: 20px 0;
+        }
+        .blog-content .image-caption {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 8px;
         }
         .blog-content blockquote {
-            background-color: #f9f9f9;
-            border-left: 10px solid #ccc;
-            margin: 1.5em 10px;
-            padding: 0.5em 10px;
-            quotes: "\201C""\201D""\2018""\2019";
+            text-align: center;
+            margin: 2em 0;
+            padding: 1em;
+            font-style: italic;
+            color: #0e4677;
         }
-        .blog-content blockquote:before {
-            color: #ccc;
-            content: open-quote;
-            font-size: 4em;
-            line-height: 0.1em;
-            margin-right: 0.25em;
-            vertical-align: -0.4em;
-        }
-        .blog-content blockquote p {
+        .blog-content blockquote h3 {
+            font-size: 1.5em;
+            margin: 0;
             display: inline;
+        }
+        .blog-content blockquote h3::before {
+            content: "“";
+            font-size: 2em;
+            color: #0090cf;
+        }
+        .blog-content blockquote h3::after {
+            content: "”";
+            font-size: 2em;
+            color: #0090cf;
+        }
+        .blog-content blockquote .quote-author {
+            display: block;
+            text-align: right;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+        }
+        .tags-section {
+            margin-top: 2em;
+            padding: 1em 0;
+            border-top: 1px solid #ccc;
+        }
+        .tags-section span {
+            display: inline-block;
+            background-color: #0090cf;
+            color: white;
+            padding: 0.5em 1em;
+            margin: 0.25em;
+            border-radius: 0.375em;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -108,24 +138,37 @@
         <div class="container mx-auto">
             <h2 class="text-5xl font-bold text-center mb-8">Blog Post Title</h2>
             
+            <!-- Optional Quote Section -->
             <div id="quote-section" class="my-8">
                 <blockquote class="blog-content">
-                    <p>Optional quote</p>
+                    <h3>This is an optional quote that you can choose to display or hide.</h3>
+                    <span class="quote-author">- Quote Author</span>
                 </blockquote>
             </div>
 
+            <!-- Blog Content with Full-Width Images and Captions -->
             <div class="blog-content">
                 <img src="/images/tiger.jpeg" alt="Tiger">
+                <div class="image-caption">A majestic tiger in the wild.</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <img src="/images/tiger.jpeg" alt="Tiger" style="float: right; margin: 0 0 20px 20px;">
+                <img src="/images/tiger.jpeg" alt="Tiger">
+                <div class="image-caption">Another stunning tiger image.</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
+            </div>
+
+            <!-- Tags Section -->
+            <div class="tags-section">
+                <span>Technology</span>
+                <span>Design</span>
+                <span>Inspiration</span>
+                <span>Nature</span>
             </div>
         </div>
     </section>
@@ -143,24 +186,6 @@
             const menu = document.getElementById('navbar-menu');
             menu.classList.toggle('hidden');
         });
-
-        const quoteSection = document.getElementById('quote-section');
-        quoteSection.style.display = 'none'; // Hide by default
-
-        function toggleQuoteSection() {
-            if (quoteSection.style.display === 'none') {
-                quoteSection.style.display = 'block';
-            } else {
-                quoteSection.style.display = 'none';
-            }
-        }
-
-        // Button to toggle quotes section
-        const toggleButton = document.createElement('button');
-        toggleButton.textContent = 'Toggle Quote Section';
-        toggleButton.className = 'btn-read';
-        toggleButton.onclick = toggleQuoteSection;
-        document.querySelector('#blog').appendChild(toggleButton);
     </script>
 </body>
 </html>
